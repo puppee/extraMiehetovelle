@@ -3,6 +3,9 @@
 	Copyright ByTS 2016. All rights reserved.
 	Any usage of the code is forbidden without permission from ByTS.
 -->
+<?php
+   include('session.php');
+?>
 <html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
@@ -131,7 +134,7 @@ app.controller("main", function($scope, $http) {
                       <a href="#" class="btn btn-default btn-flat">Profiili</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat" ua-logout>Kirjaudu ulos</a>
+                      <a href="logout.php" class="btn btn-default btn-flat" ua-logout>Kirjaudu ulos</a>
                     </div>
                   </li>
                 </ul>
