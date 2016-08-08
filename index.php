@@ -431,7 +431,7 @@ app.controller("main", function($scope, $http) {
         <div class="pull-right hidden-xs">
           <b>Versio</b> 0.4
         </div>
-        <strong>&copy; 2016 <a href="http://byts.fi">ByTS</a></strong>
+        <strong>&copy; 2016 ByTS</strong>
       </footer>
 
       <aside class="control-sidebar control-sidebar-dark">
