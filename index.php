@@ -35,10 +35,10 @@ if (login_check($mysqli) == true) {
         }
         ?> 
         <form action="includes/process_login.php" method="post" name="login_form">                      
-            Sähköposti: <input type="text" name="email" />
+            Sähköposti: <input type="text" name="email" /><br>
             Salasana: <input type="password" 
                              name="password" 
-                             id="password"/>
+                             id="password"/><br>
             <input type="button" 
                    value="Kirjaudu" 
                    onclick="formhash(this.form, this.form.password);" /> 
