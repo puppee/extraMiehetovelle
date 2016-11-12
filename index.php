@@ -24,11 +24,11 @@ if (login_check($mysqli) == true) {
     <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
     <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-        <script type="text/JavaScript" src="js/sha512.js"></script> 
-        <script type="text/JavaScript" src="js/forms.js"></script> 
+    <script type="text/JavaScript" src="js/sha512.js"></script> 
+    <script type="text/JavaScript" src="js/forms.js"></script> 
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
-        <div class="content">
+        <div class="content center">
         <?php
         if (isset($_GET['error'])) {
             echo '<p class="error">Error Logging In!</p>';
